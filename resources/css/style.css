@@ -21,9 +21,45 @@ header{
   header nav{
     padding-right: 40px;
   }
+div {
+  border: 1px solid black;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end:0px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: .83em;
+  -webkit-margin-after: .83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end:0px;
+  font-weight: bold;
+}
   .content{
     display: flex;
     width: 1232px;
     margin: 0 auto 78px auto;
     padding-top: 116px;
   }
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+  .column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
