@@ -1,3 +1,22 @@
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+a {
+  color: black;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
 header{
     display: flex;
     align-items: center;
@@ -21,8 +40,32 @@ header{
   header nav{
     padding-right: 40px;
   }
+  body {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
 div {
   border: 1px solid black;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
 }
 
 p {
@@ -41,10 +84,14 @@ h2 {
   -webkit-margin-end:0px;
   font-weight: bold;
 }
-  .content{
+  .content {
     display: flex;
     width: 1232px;
     margin: 0 auto 78px auto;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 78px;
+      margin-left: auto;
     padding-top: 116px;
   }
 .column {
