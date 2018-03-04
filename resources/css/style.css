@@ -1,10 +1,11 @@
 html {
-    margin: 0;
+    /*margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
+    vertical-align: baseline;*/
+    display: block;
 }
 a {
   color: black;
@@ -52,7 +53,7 @@ header{
     margin-left: 0px;
   }
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;
     border-top-color: black;
     border-top-style: solid;
     border-top-width: 1px;
@@ -69,7 +70,7 @@ div {
     border-image-slice: initial;
     border-image-width: initial;
     border-image-outset: initial;
-    border-image-repeat: initial;
+    border-image-repeat: initial;*/
 }
 
 p {
@@ -127,6 +128,14 @@ h2 {
   justify-content: space-between;
   margin-top: 17px;
 }
+.stories .text-content {
+  height : 250px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 .fall-cancelled.image-content {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
 
@@ -140,7 +149,7 @@ h2 {
 .image-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     height: 300px;
     margin-top: 15px;
     font-family: Georgia;
